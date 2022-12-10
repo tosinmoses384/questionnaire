@@ -45,6 +45,12 @@ code {
   align-items: center;
   text-align: center;
   color: #ffffff;
+  cursor: pointer;
+}
+
+.space-span {
+  color: #fff;
+  cursor: pointer;
 }
 
 .btn {
@@ -61,7 +67,6 @@ code {
 }
 
 .btn-span {
-  font-family: "GT Cinetype";
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -114,6 +119,10 @@ code {
   select {
     width: 100% !important;
   }
+
+  .headerInp {
+    margin-top: 1rem;
+  }
 }
 
 // Form styling
@@ -124,6 +133,7 @@ h2 {
 }
 
 .form {
+  padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -161,6 +171,15 @@ h2 {
   padding: 16px;
   font-size: 14px;
   background: #ffffff;
+}
+
+.headerInp {
+  border: 0;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  background: #ffffff;
+  outline: 0;
 }
 
 .select-input {
@@ -253,6 +272,14 @@ h2 {
   padding: 8px;
   margin-top: 20px;
   width: 100%;
+}
+
+.form .save-btn button:disabled,
+.form .save-btn button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: none;
 }
 
 .form .add-btn .add-span {
