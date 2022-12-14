@@ -29,9 +29,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**My postmortem: **
 
 During the first phase of building this interesting project, I was not using html semantics but I later did which is something interesting I found doing. It is a good thing to build website that is not only beautiful and functional but accessible for everyone.
 
